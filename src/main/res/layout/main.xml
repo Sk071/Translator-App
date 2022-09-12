@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:layout_centerInParent="true"
+	android:background="#9983D9">
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="Enter Your Text"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="wrap_content"
+		android:layout_marginTop="41dp"
+		android:id="@+id/mainTextView1"
+		android:layout_centerHorizontal="true"
+		android:textColor="#FAFAFA"/>
+
+	<EditText
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:layout_below="@id/mainTextView1"
+		android:layout_marginTop="10dp"
+		android:id="@+id/e1"
+		android:ems="8"
+		android:layout_centerHorizontal="true"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:text="Translate"
+		android:layout_width="wrap_content"
+		android:layout_below="@id/e1"
+		android:layout_marginTop="15dp"
+		android:id="@+id/b1"
+		android:layout_centerHorizontal="true"
+		android:textColor="#6267AE"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="Translation Into Marathi"
+		android:layout_width="wrap_content"
+		android:layout_below="@id/e1"
+		android:layout_marginTop="80dp"
+		android:textSize="15sp"
+		android:id="@+id/mainTextView2"
+		android:layout_centerHorizontal="true"
+		android:textColor="#FFFFFF"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text=""
+		android:layout_width="wrap_content"
+		android:layout_below="@id/mainTextView2"
+		android:layout_marginTop="25dp"
+		android:layout_centerHorizontal="true"
+		android:textSize="20sp"
+		android:id="@+id/t1"
+		android:textColor="#5CEADD"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="© Created by Shubham Kumbhar"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_width="wrap_content"
+		android:layout_below="@id/t1"
+		android:layout_marginTop="180dp"
+		android:layout_centerHorizontal="true"
+		android:id="@+id/mainTextView3"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="Disclaimer: All Results Are Fetching From Yandex Server So Some Results May Be Inapropriate."
+		android:layout_width="wrap_content"
+		android:layout_below="@id/t1"
+		android:layout_marginTop="130dp"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp"
+		android:textColor="#58D483"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:layout_below="@id/t1"
+		android:layout_marginTop="20dp"
+		android:layout_centerHorizontal="true"
+		android:textColor="#58D483"
+		android:textSize="15sp"
+		android:id="@+id/yandex"/>
+
+</RelativeLayout>
+
